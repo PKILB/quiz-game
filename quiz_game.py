@@ -2,31 +2,31 @@ print("Welcome to my League Of Legends Quiz!")
 
 playing = input("Do you want to play? ")
 
-if playing != "yes":
+if playing.lower() != "yes":
     quit()
 
 print("Okay! Let's play :)")
 
 answer = input("Who is the hardest ADC? ")
-if answer == "Aphelios":
+if answer.lower() == "Aphelios":
     print("Correct!")
 else:
     print("Incorrect......")
 
 answer = input("Who is the most cringe Top Laner? ")
-if answer == "Teemo":
+if answer.lower() == "Teemo":
     print("Correct!")
 else:
     print("Incorrect......")
 
 answer = input("Who is the coolest Mid Laner? ")
-if answer == "Sylas":
+if answer.lower() == "Sylas":
     print("Correct!")
 else:
     print("Incorrect......")
 
 answer = input("Who is the scariest Jungler? ")
-if answer == "Eveylnn":
+if answer.lower() == "Eveylnn":
     print("Correct!")
 else:
     print("Incorrect......")
